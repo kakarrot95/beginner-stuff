@@ -1,0 +1,13 @@
+#target: dependencies 
+#<TAB>action
+output: main.o message.o
+	g++ main.o message.o -o output 
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+messsage.o: message.cpp message.h
+	g++ -c message.cpp
+
+clean:
+	rm *.o output 
