@@ -29,6 +29,7 @@
     <ClCompile Include="string.cpp" />
     <ClCompile Include="Template.cpp" />
     <ClCompile Include="thread.cpp" />
+    <ClCompile Include="timing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Log.h" />
