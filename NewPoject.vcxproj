@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="array3d.cpp" />
     <ClCompile Include="Class.cpp" />
     <ClCompile Include="FunctionPointer.cpp" />
     <ClCompile Include="interface.cpp" />
